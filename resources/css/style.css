@@ -1,0 +1,184 @@
+html{
+  font-size: 18px;
+}
+
+.container{
+  font-family: Helvetica;
+  color: white;
+}
+
+.container-0{
+  display: flex;
+  justify-content: center;
+}
+
+.container-1{
+  padding-top: 1rem;
+}
+
+.bannerpic{
+  background-image: url('../media/glasses-bg.png');
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.toplogo{
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.logopic{
+display: inline-flex;
+flex-grow: 1;
+padding-left: 2rem;
+/*padding-right: 1rem;*/
+}
+
+.logopic p{
+padding-left: 1rem;
+}
+
+.logolinks{
+
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+li{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.bt{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bannertxt{
+  margin-top: 10rem;
+  margin-right: 2rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  color: black;
+}
+
+.container-2{
+  margin-top: 3rem;
+  height: 8rem;
+}
+
+.pic-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.paper{
+  width: 3.5rem;
+  margin-right: 6rem;
+}
+
+.ruler{
+  width: 5rem;
+}
+
+.truck{
+  margin-left: 6rem;
+}
+
+.icon-label{
+display: flex;
+justify-content: center;
+color: black;
+text-align: center;
+}
+.p1{
+  margin-right: 6rem;
+}
+
+.p3{
+  margin-left: 6rem;
+}
+
+.container-3{
+  /*display: flex;
+  justify-content: center;*/
+  width: 960px;
+  padding-top: 3rem;
+}
+
+.c3-content1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+/*
+.philosophy{
+  background-color: cadetblue;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}*/
+
+.appointments, .philosophy{
+  background-color: cadetblue;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  font-weight: bold;
+}
+
+.c3-content2{
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+span.p4,.p5{
+  width: 35%;
+}
+
+span.p4{
+  margin-right: 5%;
+}
+
+.container-4{
+  width: 960px;
+  /*display: flex;*/
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.c4-content{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  height: 1.5rem;
+}
+
+.footer{
+  color: black;
+  display: flex;
+  padding-left: 4rem;
+}
+
+span.p6{
+  padding-left: 1rem;
+}
+
+.mobile-nav{
+  display: none;
+}
